@@ -180,13 +180,13 @@ public class Main {
         }
         StringBuilder result = new StringBuilder();
 
-        // Строка без останніх 2 символів
+        // String without 2 last characters
         result.append(str.substring(0, str.length() - 2));
 
-        // Додавання останнього символа
+        // Appending last character
         result.append(str.charAt(str.length() - 1));
 
-        // Додавання передостаннього символа
+        // Appending second-to-last character
         result.append(str.charAt(str.length() - 2));
 
         return result.toString();
